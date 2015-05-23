@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		688635CA1A1E4B41008D21C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688635C91A1E4B41008D21C0 /* AppDelegate.swift */; };
+		688635CC1A1E4B41008D21C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688635CB1A1E4B41008D21C0 /* ViewController.swift */; };
+		688635CF1A1E4B41008D21C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688635CD1A1E4B41008D21C0 /* Main.storyboard */; };
+		688635D11A1E4B41008D21C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688635D01A1E4B41008D21C0 /* Images.xcassets */; };
+		688635D41A1E4B41008D21C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688635D21A1E4B41008D21C0 /* LaunchScreen.xib */; };
+		688635F01A1E4BD0008D21C0 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688635EF1A1E4BD0008D21C0 /* WatchKit.framework */; };
+		688635F61A1E4BD0008D21C0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688635F51A1E4BD0008D21C0 /* InterfaceController.swift */; };
+		688635FC1A1E4BD0008D21C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688635FB1A1E4BD0008D21C0 /* Images.xcassets */; };
+		688636001A1E4BD0008D21C0 /* Twatch Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 688635FF1A1E4BD0008D21C0 /* Twatch Watch App.app */; };
+		688636071A1E4BD0008D21C0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688636061A1E4BD0008D21C0 /* Interface.storyboard */; };
+		688636091A1E4BD0008D21C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688636081A1E4BD0008D21C0 /* Images.xcassets */; };
+		6886360C1A1E4BD0008D21C0 /* Twatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 688635ED1A1E4BD0008D21C0 /* Twatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		688B95221B0A30B100B873CB /* hourhand.png in Resources */ = {isa = PBXBuildFile; fileRef = 688B951F1B0A30B100B873CB /* hourhand.png */; };
+		688B95231B0A30B100B873CB /* minhand.png in Resources */ = {isa = PBXBuildFile; fileRef = 688B95201B0A30B100B873CB /* minhand.png */; };
+		688B95241B0A30B100B873CB /* sechand.png in Resources */ = {isa = PBXBuildFile; fileRef = 688B95211B0A30B100B873CB /* sechand.png */; };
+		68DBDE461B1075CE00A3FF54 /* bg-default@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68DBDE441B1075AB00A3FF54 /* bg-default@2x.jpg */; };
+		68FCB6B91B1055EA002FE405 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCB6B81B1055E9002FE405 /* WatchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		688636011A1E4BD0008D21C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 688635BC1A1E4B41008D21C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688635FE1A1E4BD0008D21C0;
+			remoteInfo = "Twatch Watch App";
+		};
+		6886360A1A1E4BD0008D21C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 688635BC1A1E4B41008D21C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688635EC1A1E4BD0008D21C0;
+			remoteInfo = "Twatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		688636131A1E4BD0008D21C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6886360C1A1E4BD0008D21C0 /* Twatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		688635C41A1E4B41008D21C0 /* Twatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		688635C81A1E4B41008D21C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688635C91A1E4B41008D21C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		688635CB1A1E4B41008D21C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		688635CE1A1E4B41008D21C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		688635D01A1E4B41008D21C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		688635D31A1E4B41008D21C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		688635ED1A1E4BD0008D21C0 /* Twatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Twatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		688635EF1A1E4BD0008D21C0 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		688635F31A1E4BD0008D21C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688635F41A1E4BD0008D21C0 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		688635F51A1E4BD0008D21C0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		688635FB1A1E4BD0008D21C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		688635FF1A1E4BD0008D21C0 /* Twatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		688636051A1E4BD0008D21C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688636061A1E4BD0008D21C0 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		688636081A1E4BD0008D21C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		688B951F1B0A30B100B873CB /* hourhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourhand.png; sourceTree = "<group>"; };
+		688B95201B0A30B100B873CB /* minhand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minhand.png; sourceTree = "<group>"; };
+		688B95211B0A30B100B873CB /* sechand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sechand.png; sourceTree = "<group>"; };
+		68DBDE441B1075AB00A3FF54 /* bg-default@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bg-default@2x.jpg"; path = "../Twatch WatchKit Extension/bg-default@2x.jpg"; sourceTree = "<group>"; };
+		68FCB6B81B1055E9002FE405 /* WatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		688635C11A1E4B41008D21C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688635EA1A1E4BD0008D21C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688635F01A1E4BD0008D21C0 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		688635BB1A1E4B41008D21C0 = {
+			isa = PBXGroup;
+			children = (
+				688635C61A1E4B41008D21C0 /* Twatch */,
+				688635F11A1E4BD0008D21C0 /* Twatch WatchKit Extension */,
+				688636031A1E4BD0008D21C0 /* Twatch Watch App */,
+				688635EE1A1E4BD0008D21C0 /* Frameworks */,
+				688635C51A1E4B41008D21C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		688635C51A1E4B41008D21C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				688635C41A1E4B41008D21C0 /* Twatch.app */,
+				688635ED1A1E4BD0008D21C0 /* Twatch WatchKit Extension.appex */,
+				688635FF1A1E4BD0008D21C0 /* Twatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		688635C61A1E4B41008D21C0 /* Twatch */ = {
+			isa = PBXGroup;
+			children = (
+				688635C91A1E4B41008D21C0 /* AppDelegate.swift */,
+				688635CB1A1E4B41008D21C0 /* ViewController.swift */,
+				688635CD1A1E4B41008D21C0 /* Main.storyboard */,
+				688635D01A1E4B41008D21C0 /* Images.xcassets */,
+				688635D21A1E4B41008D21C0 /* LaunchScreen.xib */,
+				688635C71A1E4B41008D21C0 /* Supporting Files */,
+			);
+			path = Twatch;
+			sourceTree = "<group>";
+		};
+		688635C71A1E4B41008D21C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				688635C81A1E4B41008D21C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		688635EE1A1E4BD0008D21C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				688635EF1A1E4BD0008D21C0 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		688635F11A1E4BD0008D21C0 /* Twatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				68AF1A4E1A1EFE39008B7A61 /* assets */,
+				688635F51A1E4BD0008D21C0 /* InterfaceController.swift */,
+				68FCB6B81B1055E9002FE405 /* WatchView.swift */,
+				688635FB1A1E4BD0008D21C0 /* Images.xcassets */,
+				688635F21A1E4BD0008D21C0 /* Supporting Files */,
+			);
+			path = "Twatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		688635F21A1E4BD0008D21C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				688635F31A1E4BD0008D21C0 /* Info.plist */,
+				688635F41A1E4BD0008D21C0 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		688636031A1E4BD0008D21C0 /* Twatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				688636061A1E4BD0008D21C0 /* Interface.storyboard */,
+				688636081A1E4BD0008D21C0 /* Images.xcassets */,
+				68DBDE441B1075AB00A3FF54 /* bg-default@2x.jpg */,
+				688636041A1E4BD0008D21C0 /* Supporting Files */,
+			);
+			path = "Twatch Watch App";
+			sourceTree = "<group>";
+		};
+		688636041A1E4BD0008D21C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				688636051A1E4BD0008D21C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68AF1A4E1A1EFE39008B7A61 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				68AF1A501A1EFE4D008B7A61 /* acc */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		68AF1A501A1EFE4D008B7A61 /* acc */ = {
+			isa = PBXGroup;
+			children = (
+				688B951F1B0A30B100B873CB /* hourhand.png */,
+				688B95201B0A30B100B873CB /* minhand.png */,
+				688B95211B0A30B100B873CB /* sechand.png */,
+			);
+			name = acc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		688635C31A1E4B41008D21C0 /* Twatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688635E31A1E4B41008D21C0 /* Build configuration list for PBXNativeTarget "Twatch" */;
+			buildPhases = (
+				688635C01A1E4B41008D21C0 /* Sources */,
+				688635C11A1E4B41008D21C0 /* Frameworks */,
+				688635C21A1E4B41008D21C0 /* Resources */,
+				688636131A1E4BD0008D21C0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6886360B1A1E4BD0008D21C0 /* PBXTargetDependency */,
+			);
+			name = Twatch;
+			productName = Twatch;
+			productReference = 688635C41A1E4B41008D21C0 /* Twatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		688635EC1A1E4BD0008D21C0 /* Twatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688636101A1E4BD0008D21C0 /* Build configuration list for PBXNativeTarget "Twatch WatchKit Extension" */;
+			buildPhases = (
+				688635E91A1E4BD0008D21C0 /* Sources */,
+				688635EA1A1E4BD0008D21C0 /* Frameworks */,
+				688635EB1A1E4BD0008D21C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				688636021A1E4BD0008D21C0 /* PBXTargetDependency */,
+			);
+			name = "Twatch WatchKit Extension";
+			productName = "Twatch WatchKit Extension";
+			productReference = 688635ED1A1E4BD0008D21C0 /* Twatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		688635FE1A1E4BD0008D21C0 /* Twatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6886360D1A1E4BD0008D21C0 /* Build configuration list for PBXNativeTarget "Twatch Watch App" */;
+			buildPhases = (
+				688635FD1A1E4BD0008D21C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Twatch Watch App";
+			productName = "Twatch Watch App";
+			productReference = 688635FF1A1E4BD0008D21C0 /* Twatch Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		688635BC1A1E4B41008D21C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TaiWei;
+				TargetAttributes = {
+					688635C31A1E4B41008D21C0 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = W936ULXJ7C;
+					};
+					688635EC1A1E4BD0008D21C0 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = W936ULXJ7C;
+					};
+					688635FE1A1E4BD0008D21C0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 688635BF1A1E4B41008D21C0 /* Build configuration list for PBXProject "Twatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 688635BB1A1E4B41008D21C0;
+			productRefGroup = 688635C51A1E4B41008D21C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				688635C31A1E4B41008D21C0 /* Twatch */,
+				688635EC1A1E4BD0008D21C0 /* Twatch WatchKit Extension */,
+				688635FE1A1E4BD0008D21C0 /* Twatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		688635C21A1E4B41008D21C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688635CF1A1E4B41008D21C0 /* Main.storyboard in Resources */,
+				688635D41A1E4B41008D21C0 /* LaunchScreen.xib in Resources */,
+				688635D11A1E4B41008D21C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688635EB1A1E4BD0008D21C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688636001A1E4BD0008D21C0 /* Twatch Watch App.app in Resources */,
+				688B95221B0A30B100B873CB /* hourhand.png in Resources */,
+				688635FC1A1E4BD0008D21C0 /* Images.xcassets in Resources */,
+				688B95231B0A30B100B873CB /* minhand.png in Resources */,
+				688B95241B0A30B100B873CB /* sechand.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688635FD1A1E4BD0008D21C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688636071A1E4BD0008D21C0 /* Interface.storyboard in Resources */,
+				688636091A1E4BD0008D21C0 /* Images.xcassets in Resources */,
+				68DBDE461B1075CE00A3FF54 /* bg-default@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		688635C01A1E4B41008D21C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688635CC1A1E4B41008D21C0 /* ViewController.swift in Sources */,
+				688635CA1A1E4B41008D21C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688635E91A1E4BD0008D21C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688635F61A1E4BD0008D21C0 /* InterfaceController.swift in Sources */,
+				68FCB6B91B1055EA002FE405 /* WatchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		688636021A1E4BD0008D21C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 688635FE1A1E4BD0008D21C0 /* Twatch Watch App */;
+			targetProxy = 688636011A1E4BD0008D21C0 /* PBXContainerItemProxy */;
+		};
+		6886360B1A1E4BD0008D21C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 688635EC1A1E4BD0008D21C0 /* Twatch WatchKit Extension */;
+			targetProxy = 6886360A1A1E4BD0008D21C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		688635CD1A1E4B41008D21C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688635CE1A1E4B41008D21C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		688635D21A1E4B41008D21C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				688635D31A1E4B41008D21C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		688635E11A1E4B41008D21C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		688635E21A1E4B41008D21C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		688635E41A1E4B41008D21C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Twatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		688635E51A1E4B41008D21C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Twatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6886360E1A1E4BD0008D21C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Twatch_WatchKit_Extension;
+				INFOPLIST_FILE = "Twatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		6886360F1A1E4BD0008D21C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Twatch_WatchKit_Extension;
+				INFOPLIST_FILE = "Twatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		688636111A1E4BD0008D21C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Twatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		688636121A1E4BD0008D21C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Twatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		688635BF1A1E4B41008D21C0 /* Build configuration list for PBXProject "Twatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688635E11A1E4B41008D21C0 /* Debug */,
+				688635E21A1E4B41008D21C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688635E31A1E4B41008D21C0 /* Build configuration list for PBXNativeTarget "Twatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688635E41A1E4B41008D21C0 /* Debug */,
+				688635E51A1E4B41008D21C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6886360D1A1E4BD0008D21C0 /* Build configuration list for PBXNativeTarget "Twatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6886360E1A1E4BD0008D21C0 /* Debug */,
+				6886360F1A1E4BD0008D21C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688636101A1E4BD0008D21C0 /* Build configuration list for PBXNativeTarget "Twatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688636111A1E4BD0008D21C0 /* Debug */,
+				688636121A1E4BD0008D21C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 688635BC1A1E4B41008D21C0 /* Project object */;
+}
